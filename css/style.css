@@ -53,7 +53,7 @@ h2 {
 p {
 
     color: white;
-    margin: 10px;
+  
 }
 
 .container img {
@@ -61,4 +61,9 @@ p {
     width: 50%;
     align-items: center;
     ;
+}
+
+.footer h1 {
+
+    font-size: 20px;
 }
