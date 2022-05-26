@@ -1,0 +1,39 @@
+* { 
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 100%;
+    border: solid 5px green;
+    
+}
+
+
+.red {
+
+    float: left;
+    background-color: red;
+    width: 500px;
+    height: 300px;
+}
+
+
+.blue {
+
+    float: right;
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+}
+
+.container::after {
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
