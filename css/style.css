@@ -15,30 +15,33 @@ main {
     max-width: 1000px;
     margin: auto;
 }
-.imgright {
 
-    float: right;
-    margin: 10px;
+
+
+.container {
+
+    float:left;
+    width:calc(100% / 3);
+    text-align: center;
+    margin-bottom: 50px;
+   
+    padding: 5px;
 }
-
-.imgleft {
-
-    float: left;
-    margin: 10px;
-}
-
 .clearfix::after {
 
-    content: "";
     display: table;
-    clear: both;
-   
+    content: "";
+    clear: left;
+
 }
+
+
 
 h1 { 
 
     color: violet;
-    margin: 30px;
+    margin-bottom: 30px;
+   
 }
 
 h2 {
@@ -53,6 +56,9 @@ p {
     margin: 10px;
 }
 
-.capitolo1 {
-    
+.container img {
+
+    width: 50%;
+    align-items: center;
+    ;
 }
