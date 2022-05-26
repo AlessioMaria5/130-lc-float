@@ -27,7 +27,7 @@ main {
     margin: 10px;
 }
 
-.capitolo1::after {
+.clearfix::after {
 
     content: "";
     display: table;
@@ -50,4 +50,9 @@ h2 {
 p {
 
     color: white;
+    margin: 10px;
+}
+
+.capitolo1 {
+    
 }
