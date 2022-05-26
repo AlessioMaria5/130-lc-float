@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+   
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: black
+}
+
+main {
+
+    max-width: 1000px;
+    margin: auto;
+}
+.imgright {
+
+    float: right;
+    margin: 10px;
+}
+
+.imgleft {
+
+    float: left;
+    margin: 10px;
+}
+
+.capitolo1::after {
+
+    content: "";
+    display: table;
+    clear: both;
+   
+}
+
+h1 { 
+
+    color: violet;
+    margin: 30px;
+}
+
+h2 {
+
+    color: orange;
+    margin: 30px;
+}
+
+p {
+
+    color: white;
+}
