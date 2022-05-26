@@ -37,3 +37,10 @@
     display: table;
 }
 
+.card {
+
+    width: calc(100%/3);
+    border: solid black 2px;
+    height: 150px;
+    float: left;
+}
